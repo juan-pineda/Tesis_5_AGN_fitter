@@ -3,6 +3,23 @@
 
 In this repository it is available the information associated with my undergraduate thesis: objectives, schedule, data, codes and documents. This thesis is a part of the project [AGNfitter](https://github.com/GabrielaCR/AGNfitter) which consist of a Python algorithm implementing a fully Bayesian MCMC method to fit the spectral energy distributions (SEDs) of active galactic nuclei (AGN) and galaxies from the sub-mm to the UV. The main purpose is robustly disentangle the physical processes responsible for the emission of the sources.
 
+# Participants:
+
+  * Juan Carlos Basto Pineda (juan.basto.pineda@gmail.com)
+  * Luis A. Nuñez (lnunez@uis.edu.co)
+  * Gabriela Calistro (gabriela.calistrorivera@eso.org)
+  * Laura Natalia Martínez Ramírez (laura.martinez13@correo.uis.edu.co)
+  
+# Repository content
+
+  * /Latex : This folder contains the documents in latex format created for this project and its pdf version.
+  * /Tests : This folder contains the test codes with the changes made to AGNfitter.
+  * /Bibliography : This foldes contains all the papers and books needed to do the bibliographic review for my thesis.
+
+# Problem Statement
+
+In this thesis we propose to investigate the relation between physical parameters inferred from data that comes from nearby AGN and differents models used for accretion disk, cold dust and torus.
+
 ## Documentation
 ----------------
 

@@ -15,10 +15,27 @@ In this repository it is available the information associated with my undergradu
   * /Latex : This folder contains the documents in latex format created for this project and its pdf version.
   * /Tests : This folder contains the test codes with the changes made to AGNfitter.
   * /Bibliography : This foldes contains all the papers and books needed to do the bibliographic review for my thesis.
+  
+# Project management
+
+To monitor and manage the thesis progress please go to the project board.
+
 
 # Problem Statement
 
 In this thesis we propose to investigate the relation between physical parameters inferred from data that comes from nearby AGN and differents models used for accretion disk, cold dust and torus.
+
+
+# Objectives
+
+## General objetive:
+
+## Specific objetives:
+
+# Associated repositories
+ 
+ * [AGNfitter](https://github.com/GabrielaCR/AGNfitter)
+
 
 ## Documentation
 ----------------

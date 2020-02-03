@@ -38,6 +38,8 @@ In this thesis we propose to investigate how the physical parameters inferred fr
  
   * Generate a catalogue of parameters for each physical model in each of the three emission processes studied from the results obtained when applying AGNfitter to the data set.
   
+  * Evaluate the set of models leading to the best fit of the spectral energy distribution of the data set and its physical implications.
+  
 
 # Associated repositories
  

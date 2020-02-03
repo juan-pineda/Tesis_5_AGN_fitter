@@ -23,12 +23,13 @@ To monitor and manage the thesis progress please go to the project board.
 
 # Problem Statement
 
-In this thesis we propose to investigate the relation between physical parameters inferred from data that comes from nearby AGN and differents models used for accretion disk, cold dust and torus.
+In this thesis we propose to investigate how the physical parameters inferred from data that comes from nearby AGN change using differents models used for accretion disk, cold dust and torus. 
 
 
 # Objectives
 
 ## General objetive:
+ * Determine the relation between physical parameters inferred from data and differents models used for accretion disk, cold dust and torus in nearby AGNs by applying the most recent version of AGNfitter to a data sets of nearby AGN.
 
 ## Specific objetives:
 

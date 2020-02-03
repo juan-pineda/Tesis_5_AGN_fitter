@@ -23,7 +23,7 @@ To monitor and manage the thesis progress please go to the project board.
 
 # Problem Statement
 
-In this thesis we propose to investigate how the physical parameters inferred from data that comes from nearby AGN change using differents models used for accretion disk, cold dust and torus. 
+In this thesis we propose to investigate how the physical parameters inferred from data that comes from nearby AGN change using differents models used for accretion disk, cold dust and torus. The purpose of this is to study the fraction of AGN in the Universe which is obscured by dust and gas.
 
 
 # Objectives
@@ -32,6 +32,12 @@ In this thesis we propose to investigate how the physical parameters inferred fr
  * Determine the relation between physical parameters inferred from data and differents models used for accretion disk, cold dust and torus in nearby AGNs by applying the most recent version of AGNfitter to a data sets of nearby AGN.
 
 ## Specific objetives:
+ * Define the suitable set of physical models for the torus, accretion disk and cold dust for nearby AGNs to be implemented in AGNfitter to fit the spectral energy distribution.
+ 
+  * Evaluate the photometric data sets of the nearby AGN to chose the filter curves required to calculate the actual fluxes of each spectral band in each AGN.
+ 
+  * Generate a catalogue of parameters for each physical model in each of the three emission processes studied from the results obtained when applying AGNfitter to the data set.
+  
 
 # Associated repositories
  

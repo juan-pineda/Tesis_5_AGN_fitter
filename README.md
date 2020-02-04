@@ -47,24 +47,24 @@ In this thesis we propose to investigate how the physical parameters inferred fr
  * Define the tittle of the thesis [February]
  * Write thesis proposal [February-1sr week march]
  * Prepare presentation of thesis proposal [March]
- 1) Study physical models (theoretical and empirical) and geometries for: [February (proposal)-April-May(deeper)]
-    a) Torus
-    b) Accretion disk
-    c) Cold dust (Distribution of temperatures and grain sizes)
- 1) Stablish assumptions of code (IMF, model of stellar population and evolution) [April-May]
- 1) Define the test models [February]
- 1) Write the code for the new physical models and test [May]
- 2) Search on photometry, photometric filters and how to apply them. [February]
- 2) Evaluate data, wavelenght, type of telescope and bandwidth [June]
- 2) Check filters in AGNfitter libraries. Add new filter if there is necessary [June]
- 2) Calculate real fluxes of each component. Prepare data to be input of AGNfitter [July]
- 3) Probe and establish # walkers, #chains and #steps in the method. [July]
- 3) Chose methodology to change the models and first tests [July]
- 3) Apply AGNfitter to each AGNs, get the parameters, effiency and completeness [August-September]
- 4) Analyze results for each component. Determine which parameters change more that other and the physical meaning. [October]
-    a) Torus
-    b) Accretion disk
-    c) Cold dust
+ * (1) Study physical models (theoretical and empirical) and geometries for: [February (proposal)-April-May(deeper)]
+    * a) Torus
+    * b) Accretion disk
+    * c) Cold dust (Distribution of temperatures and grain sizes)
+ * (1) Stablish assumptions of code (IMF, model of stellar population and evolution) [April-May]
+ * (1) Define the test models [February]
+ * (1) Write the code for the new physical models and test [May]
+ * (2) Search on photometry, photometric filters and how to apply them. [February]
+ * (2) Evaluate data, wavelenght, type of telescope and bandwidth [June]
+ * (2) Check filters in AGNfitter libraries. Add new filter if there is necessary [June]
+ * (2) Calculate real fluxes of each component. Prepare data to be input of AGNfitter [July]
+ * (3) Probe and establish # walkers, #chains and #steps in the method. [July]
+ * (3) Chose methodology to change the models and first tests [July]
+ * (3) Apply AGNfitter to each AGNs, get the parameters, effiency and completeness [August-September]
+ * (4) Analyze results for each component. Determine which parameters change more that other and the physical meaning. [October]
+    * a) Torus
+    * b) Accretion disk
+    * c) Cold dust
  * Write the thesis [March-October]
  * Final presentation [November]
  * Paper of last version of AGNfitter [to be defined]

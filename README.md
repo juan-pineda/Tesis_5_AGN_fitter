@@ -29,16 +29,16 @@ In this thesis we propose to investigate how the physical parameters inferred fr
 # Objectives
 
 ## General objetive:
- * Determine the relation between physical characteristics inferred from data of nearby AGN and differents models used for accretion disk, cold dust and torus as inputs for the bayesian MCMC code AGNfitter (the most recent version) to reproduce the observed spectral energy distribution. 
+ * To determine the relationship between the physical characteristics of nearby AGNs inferred from high-quality data and the differents models used for accretion disk, cold dust and torus as inputs for the bayesian MCMC code AGNfitter to reproduce the observed spectral energy distribution. This will be important to analyse the current model of AGNs, their components and properties.
 
 ## Specific objetives:
- * To define the suitable set of physical models for the torus, accretion disk and cold dust for nearby AGNs to be implemented in the bayesian MCMC code AGNfitter to fit the spectral energy distribution.
+ * To identify and choose the set of most relevant physical models for the torus, accretion disk and cold dust for nearby AGNs to be implemented in the bayesian MCMC code AGNfitter to fit the spectral energy distribution.
  
- * To model the spectral energy distribution of a sample of 48 nearby AGNs for which very high-quality data is available over the wavelength range from radio to far UV using the bayesian MCMC code AGNfitter and the chosen physical models for the torus, accretion disk and cold dust as inputs.
+ * To model the spectral energy distribution of a sample of nearby AGNs for which very high-quality data is available over the wavelength range from radio to far UV using the bayesian MCMC code AGNfitter. This will be done using different combinations of the set of chosen physical models for each component as inputs.
  
-  * To interpret the physical meaning, uncertainties and completeness of the inferred physical parameters as a plausible description of the host galaxies and their AGNs.
+  * To interpret the physical meaning, uncertainties and limitations of the inferred physical parameters as a plausible description of each host galaxies and its AGNs.
   
-  * To determine the differences in the inferred physical parameters as a function of the underlying models assumed 
+  * To determine the global differences in the inferred physical parameters as a function of the underlying models assumed 
   during the fits and its implications they have for the current view of AGNs, their structure and properties.
   
 # First draft of the schedule
@@ -48,28 +48,28 @@ In this thesis we propose to investigate how the physical parameters inferred fr
   * Define the test models [February]
   * Write thesis proposal [February]
   * Prepare presentation of thesis proposal [1st-2nd week March]
-* (2) Get familiar with the code [February- March]
-  * Run AGNfitter in python2 [2nd week February]
-  * Test AGNfitter in python3 [2nd-3rd weeks February]
+* (2) Get familiar with the code [March]
+  * Run AGNfitter in python2 [March]
+  * Test AGNfitter in python3 [March]
+  * Necessary math [March]
 * (3) Study physical models (theoretical and empirical) and geometries for: [February (proposal)-April-May(deeper)]
   * a) Torus
   * b) Accretion disk
   * c) Cold dust (Distribution of temperatures and grain sizes)
-* (4) Get familiar with the data and define specific experiments [May-June]
+* (4) Get familiar with the data and define specific experiments [May]
   * Stablish assumptions of code (IMF, model of stellar population and evolution) [May]
   * Probe and establish # walkers, #chains and #steps in the method. [May]
   * Write the code for the new physical models and test [May]
-  * Evaluate data, wavelenght, type of telescope and bandwidth [June]
-  * Check filters in AGNfitter libraries. Add new filter if there is necessary [June]
-  * Calculate real fluxes of each component. Prepare data to be input of AGNfitter [June]
-* (5) Running experiments [July-August]
-  * Chose methodology to change the models and first tests [July]
-  * Apply AGNfitter to each AGNs, get the parameters, effiency and completeness [July-August]
-* (6) Quantifying and analysing the outputs [September-October]
-  * Analyze results for each component. Determine which parameters change more that other and the physical meaning. [September-October]
-* (7) Manuscript writing [March-November]
+  * Check filters in AGNfitter libraries. Add new filter if there is necessary [May]
+  * Calculate real fluxes of each component. Prepare data to be input of AGNfitter [May]
+* (5) Running experiments [May-June-July]
+  * Chose methodology to change the models and first tests [May]
+  * Apply AGNfitter to each AGNs, get the parameters, effiency and completeness [June-July]
+* (6) Quantifying and analysing the outputs [June-July]
+  * Analyse results for each AGN, the characteristics of the host galaxy and AGN components. [June-July]
+  * Analyze global results for each component. Determine which parameters change more that other and the physical meaning. [August]
+* (7) Manuscript writing [March-September]
   * Final presentation [November]
-  * Paper of last version of AGNfitter [to be defined]
 
 # Associated repositories
  

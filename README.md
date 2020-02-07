@@ -1,4 +1,6 @@
 # Tesis_5_AGN_fitter
+# Estudio de relación entre las características de AGN cercanos y los modelos de disco de acreción, polvo frío y toro usados para reproducir la distribución espectral de energía.
+
 ---------------------
 
 In this repository it is available the information associated with my undergraduate thesis: objectives, schedule, data, codes and documents. This thesis is a part of the project [AGNfitter](https://github.com/GabrielaCR/AGNfitter) which consist of a Python algorithm implementing a fully Bayesian MCMC method to fit the spectral energy distributions (SEDs) of active galactic nuclei (AGN) and galaxies from the sub-mm to the UV. The main purpose is robustly disentangle the physical processes responsible for the emission of the sources.

@@ -79,9 +79,9 @@ In this thesis we propose to investigate how the physical parameters inferred fr
   * Final presentation [November]
 
 # Table of contents of the proposal 
-  1) Abstract
-  2) Introduction
-  3) Theoretical framework
+  * 1) Abstract
+  * 2) Introduction
+  * 3) Theoretical framework
     * 3.1) Active galaxy nuclei
       * 3.1.1) Accretion disk
       * 3.1.2) Cold dust
@@ -93,13 +93,13 @@ In this thesis we propose to investigate how the physical parameters inferred fr
       * 3.3.1) Physical models for four emission components
       * 3.3.2) Outputs: physical and amplitude parameters
     * 3.4) Bayesian MCMC
-  4) Problem statement
-  5) Objectives
+  * 4) Problem statement
+  * 5) Objectives
      * 5.1) General objective
      * 5.2) Specific objectives
-  6) Methodology
+  * 6) Methodology
      * 6.1) Schedule
-  7) Bibliography
+  * 7) Bibliography
 
 
 

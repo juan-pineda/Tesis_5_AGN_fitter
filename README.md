@@ -1,6 +1,6 @@
 # Tesis_5_AGN_fitter
 
-## Modelos físicos para reconstruir la distribución espectral de energía de AGNs en z < 0.7.**
+## Modelos físicos en la distribución espectral de energía de AGNs en z < 0.7.**
 
 ## Componentes físicas de AGNs en z < 0.7 a partir de su distribución espectral de energía.
 ---------------------

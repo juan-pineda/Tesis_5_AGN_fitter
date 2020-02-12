@@ -2,8 +2,6 @@
 
 ## Modelos físicos para reconstruir la distribución espectral de energía de AGNs en z < 0.7.**
 
-## Modelos físicos en la distribución espectral de energía de AGNs en z < 0.7.**
-
 ## Restricciones en los modelos físicos de AGNs en z < 0.7 a partir de su distribución espectral de energía.
 ---------------------
 

@@ -1,11 +1,8 @@
 # Tesis_5_AGN_fitter
-## Relación entre las características de AGN cercanos y los modelos físicos usados para reproducir su distribución espectral de energía.
 
-## Estudio de los modelos físicos usados para reproducir la distribución espectral de energía de AGN cercanos.**
+## Modelos físicos usados en la distribución espectral de energía de AGNs con z < 0.7.**
 
-## Características de AGN cercanos y su dependencia de los modelos físicos usados para reproducir la distribución espectral de energía.
-
-## Modelos de disco de acreción, polvo frío y toro en la distribución espectral de energía de AGN cercanos.
+## Modelos de disco de acreción, polvo frío y toro en la distribución espectral de energía de AGNs con z < 0.7..
 ---------------------
 
 In this repository it is available the information associated with my undergraduate thesis: objectives, schedule, data, codes and documents. This thesis is a part of the project [AGNfitter](https://github.com/GabrielaCR/AGNfitter) which consist of a Python algorithm implementing a fully Bayesian MCMC method to fit the spectral energy distributions (SEDs) of active galactic nuclei (AGN) and galaxies from the sub-mm to the UV. The main purpose is robustly disentangle the physical processes responsible for the emission of the sources.
@@ -36,17 +33,21 @@ In this thesis we propose to investigate how the physical parameters inferred fr
 # Objectives
 
 ## General objetive:
- * To determine the relationship between the physical characteristics of nearby AGNs inferred from high-quality data and the differents models used for accretion disk, cold dust and torus as inputs for the bayesian MCMC code AGNfitter to reproduce the observed spectral energy distribution. This will be important to analyse the current model of AGNs, their components and properties.
+ * To correlate the physical characteristics of nearby AGNs obtained from the observed spectral energy distribution and the differents models used to reproduce it (with a bayesian MCMC approach).**
+ 
+ * (To determine the relationship between the physical characteristics of nearby AGNs and the differents models used for accretion disk, cold dust and torus as inputs for the bayesian MCMC code AGNfitter to reproduce the observed spectral energy distribution.)
 
 ## Specific objetives:
- * To identify and choose the set of most relevant physical models for the torus, accretion disk and cold dust for nearby AGNs to be implemented in the bayesian MCMC code AGNfitter to fit the spectral energy distribution.
+ * To choose the set of most relevant physical models for the torus, accretion disk and cold dust for nearby AGNs to be implemented in the bayesian MCMC code AGNfitter to fit the spectral energy distribution.
  
- * To model the spectral energy distribution of a sample of nearby AGNs for which very high-quality data is available over the wavelength range from radio to far UV using the bayesian MCMC code AGNfitter. This will be done using different combinations of the set of chosen physical models for each component as inputs.
+ * To model the spectral energy distribution of a sample of nearby AGNs for which very high-quality data is available over the wavelength range from radio to far UV using the bayesian MCMC code AGNfitter. 
  
-  * To interpret the physical meaning, uncertainties and limitations of the inferred physical parameters as a plausible description of each host galaxies and its AGNs.
+  * To analyse from the best fit the meaning of the physical parameters, uncertainties and limitations to describe each host galaxies and its AGNs.
   
-  * To determine the global differences in the inferred physical parameters as a function of the underlying models assumed 
-  during the fits and its implications they have for the current view of AGNs, their structure and properties.
+  * (To interpret the physical meaning, uncertainties and limitations of the inferred physical parameters as a plausible description of each host galaxies and its AGNs.)
+  
+  * To estimate the global differences in the inferred physical parameters according to the underlying models assumed 
+  during the fits.
   
 # First draft of the schedule
 * (1) Formulation of the proposal [February]

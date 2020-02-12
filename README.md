@@ -44,8 +44,6 @@ In this thesis we propose to investigate how the physical parameters inferred fr
  
   * To analyse from the best fit the meaning of the physical parameters, uncertainties and limitations to describe each host galaxies and its AGNs.
   
-  * (To interpret the physical meaning, uncertainties and limitations of the inferred physical parameters as a plausible description of each host galaxies and its AGNs.)
-  
   * To estimate the global differences in the inferred physical parameters according to the underlying models assumed 
   during the fits.
   

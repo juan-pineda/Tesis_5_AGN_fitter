@@ -33,9 +33,9 @@ In this thesis we propose to investigate how the physical parameters inferred fr
 # Objectives
 
 ## General objetive:
- * To correlate the physical characteristics of AGNs in z < 0.7 obtained from the observed spectral energy distribution and the differents models used to reproduce it.**
+ * Correlating the physical properties of AGNs with z < 0.7 from their observed spectral energy distributions and the different models used to reproduce them in a bayesian approach.**
  
- * (To determine the relationship between the physical characteristics of nearby AGNs and the differents models used for accretion disk, cold dust and torus as inputs for the bayesian MCMC code AGNfitter to reproduce the observed spectral energy distribution.)
+ * Comparing the likelihood of physical properties of AGNs with z < 0.7 from their observed spectral energy distributions using different base models in a fully bayesian approach
 
 ## Specific objetives:
  * To choose the set of most relevant physical models for the torus, accretion disk and cold dust for AGNs with z < 0.7 to be implemented in the bayesian MCMC code AGNfitter to fit the spectral energy distribution.

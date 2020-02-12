@@ -1,8 +1,8 @@
 # Tesis_5_AGN_fitter
 
-## Modelos físicos usados en la distribución espectral de energía de AGNs con z < 0.7.**
+## Modelos físicos para reconstruir la distribución espectral de energía de AGNs en z < 0.7.**
 
-## Modelos de disco de acreción, polvo frío y toro en la distribución espectral de energía de AGNs con z < 0.7..
+## Componentes físicas de AGNs en z < 0.7 a partir de su distribución espectral de energía.
 ---------------------
 
 In this repository it is available the information associated with my undergraduate thesis: objectives, schedule, data, codes and documents. This thesis is a part of the project [AGNfitter](https://github.com/GabrielaCR/AGNfitter) which consist of a Python algorithm implementing a fully Bayesian MCMC method to fit the spectral energy distributions (SEDs) of active galactic nuclei (AGN) and galaxies from the sub-mm to the UV. The main purpose is robustly disentangle the physical processes responsible for the emission of the sources.
@@ -33,7 +33,7 @@ In this thesis we propose to investigate how the physical parameters inferred fr
 # Objectives
 
 ## General objetive:
- * To correlate the physical characteristics of AGNs with z < 0.7 obtained from the observed spectral energy distribution and the differents models used to reproduce it (with a bayesian MCMC approach).**
+ * To correlate the physical characteristics of AGNs in z < 0.7 obtained from the observed spectral energy distribution and the differents models used to reproduce it.**
  
  * (To determine the relationship between the physical characteristics of nearby AGNs and the differents models used for accretion disk, cold dust and torus as inputs for the bayesian MCMC code AGNfitter to reproduce the observed spectral energy distribution.)
 

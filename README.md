@@ -34,14 +34,13 @@ In this thesis we propose to investigate how the physical parameters inferred fr
  * Comparing and optimizing the physical properties of a sample of AGNs in z < 0.7 from modeling their spectral energy distributions by varying the physical emission models
 
 ## Specific objetives:
- * To choose the set of most relevant physical models for the torus, accretion disk and cold dust for AGNs with z < 0.7 to be implemented in the bayesian MCMC code AGNfitter to fit spectral energy distributions.
+ * To identify the most relevant set of physical models for the torus, accretion disk and cold dust to be implemented in the fit of the spectral energy distributions
  
- * To model the spectral energy distribution of a sample of AGNs with z < 0.7 for which very high-quality data is available over the wavelength range from radio to far UV using AGNfitter. 
+ * To model the observed spectral energy distribution of a sample of AGNs in z < 0.7 from radio wavelengths to X-rays using the Bayesian AGNfitter code.
  
-  * To analyse from the best fit the meaning of the physical parameters, uncertainties and limitations to describe each host galaxy and its AGN.
+  * To analyze the probability distributions of the physical parameters associated with each of the models with emphasis on their physical interpretation
   
-  * To estimate the global differences in the inferred physical parameters according to the underlying models assumed 
-  during the fits.
+  * To quantify the overall differences in the results of the fits made for the entire AGN sample
   
 # First draft of the schedule
 * (1) Formulation of the proposal [February]

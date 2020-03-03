@@ -1,8 +1,6 @@
 # Tesis_5_AGN_fitter
 
-## Modelos físicos para reconstruir la distribución espectral de energía de AGNs en z < 0.7.**
-
-## Restricciones en los modelos físicos de AGNs en z < 0.7 a partir de su distribución espectral de energía.
+## Comparación de modelos físicos de emisión multi-onda de núcleos activos de galaxias a partir de su distribución espectral de energía
 ---------------------
 
 In this repository it is available the information associated with my undergraduate thesis: objectives, schedule, data, codes and documents. This thesis is a part of the project [AGNfitter](https://github.com/GabrielaCR/AGNfitter) which consist of a Python algorithm implementing a fully Bayesian MCMC method to fit the spectral energy distributions (SEDs) of active galactic nuclei (AGN) and galaxies from the sub-mm to the UV. The main purpose is robustly disentangle the physical processes responsible for the emission of the sources.

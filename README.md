@@ -31,7 +31,7 @@ In this thesis we propose to investigate how the physical parameters inferred fr
 # Objectives
 
 ## General objetive:
- * Comparing and optimizing the physical properties of a sample of AGNs in z < 0.7 from modeling their spectral energy distributions by varying the physical emission models
+ * Comparing the physical properties of a sample of AGNs in z < 0.7 from modeling their spectral energy distributions by varying the physical emission models
 
 ## Specific objetives:
  * To identify the most relevant set of physical models for the torus, accretion disk and cold dust to be implemented in the fit of the spectral energy distributions
@@ -78,9 +78,8 @@ In this thesis we propose to investigate how the physical parameters inferred fr
   * 3) Theoretical framework
     * 3.1) Active galaxy nuclei
       * 3.1.1) Accretion disk
-      * 3.1.2) Cold dust
-      * 3.1.3) Torus
-      * 3.1.4) Host galaxy
+      * 3.1.2) Torus
+      * 3.1.3) Host galaxy
     * 3.2) Spectral energy distribution
       * 3.2.1) AGN spectral energy distribution (Big blue bump, Infrarred bump)
     * 3.3) AGNfitter

@@ -20,7 +20,7 @@ In this repository it is available the information associated with my undergradu
   
 # Project management
 
-To monitor and manage the thesis progress please go to the project board.
+To monitor and manage the thesis progress please go to the [project board] (https://github.com/users/juan-pineda/projects/5).
 
 
 # Problem Statement

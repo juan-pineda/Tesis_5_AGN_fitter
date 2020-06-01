@@ -108,6 +108,14 @@ The bibliography used to understand the active galactic nuclei (AGN) as a first 
 
 `Schneider, P. (2014). Extragalactic astronomy and cosmology: an introduction. Springer.`
 
-and a important [document](https://arxiv.org/abs/1606.05648#) that explain AGNfitter:
+and an important [document](https://arxiv.org/abs/1606.05648#) that explain AGNfitter:
 
 `Calistro Rivera, Gabriela et al. “AGNfitter: A BAYESIAN MCMC APPROACH TO FITTING SPECTRAL ENERGY DISTRIBUTIONS OF AGNs.” The Astrophysical Journal 833.1 (2016): 98. Crossref. Web.`
+
+Data is available on: 
+
+https://archive.stsci.edu/hlsp/agnsedatlas#section-2e53544e-eae6-4a7a-bf4c-45df17de56d4
+
+and the details of the data in the following [paper](https://arxiv.org/pdf/1908.03720.pdf):
+
+`Brown, M. J. I., Duncan, K. J., Landt, H., Kirk, M., Ricci, C., Kamraj, N., ... & Ananna, T. (2019). The spectral energy distributions of active galactic nuclei. Monthly Notices of the Royal Astronomical Society, 489(3), 3351-3367.`

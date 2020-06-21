@@ -1,0 +1,24 @@
+*************************
+SKIRTOR 2.0
+*************************
+
+Last update: 18 July 2016
+Marko Stalevski
+
+--------------------------------------------------------------------
+In this folder, you will find a library of emission models of the AGN dusty torus, calculated with SKIRT, state-of-the-art radiative transfer code based on Monte Carlo technique.
+
+Apart from the file you are reading now, this folder contains:
+-- A zip archive with library of model spectral energy distribution (SED); currently it holds 19200 SEDs (1920 models x 10 inclinations)
+-- A file listing total dust mass for all the models
+
+Emission models are originally presented in Stalevski et al. (2012a), with an update in Stalevski et al. (2016).
+
+For information on SED file format and parameters of the model can be found at https://sites.google.com/site/skirtorus/sed-library
+
+If you make use of the models, any feedback would be very welcome. If you work requires models with parameter values not currently provided, let us know and we will do our best to provide those. If you cannot get good fits to the observations for some sources, seeing those examples would help us understand which part of parameter space needs to be explored further or sampled better, or if an additional component is required.
+
+For any further clarifications, questions requests or feedback, feel free to contact me at marko.stalevski@gmail.com
+
+Happy modeling!
+

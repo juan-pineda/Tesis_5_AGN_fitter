@@ -26,10 +26,10 @@ import re
 column_names = ["wavelength", 'SED', 'incl-values', 'Dm-values']  #To create the columns of the dataframe
 SKIRTOR = pd.DataFrame(columns = column_names)
 DustM = pd.read_csv("Models/SKIRTOR/total_dust_mass_2016-7-18.txt", sep = '    ', decimal=".", names= ['model', 'Mass'], skiprows = 2, engine = 'python')
-j = 0
-
-SEDs = [np.zeros((132))]*10
-Mds = np.zeros((10))
+count = 0
+N_SEDs = 80 #10 incl, 80 incl+oa
+SEDs = [np.zeros((132))]*N_SEDs #10 just incl
+Mds = np.zeros((N_SEDs))
 
 for i in os.listdir("Models/SKIRTOR/skirtor_2016-7-18"):
     data = pd.read_csv("Models/SKIRTOR/skirtor_2016-7-18/" + i, delim_whitespace=True, decimal=".", names= ['wl', 'TwlFwl', 'DSwlFwl', 'SSwlFwl', 'TDwlFwl', 'SDwlFwl', 'TrwlFwl'], skiprows = 7)
@@ -47,20 +47,37 @@ for i in os.listdir("Models/SKIRTOR/skirtor_2016-7-18"):
     
     sep = [m.start() for m in re.finditer('_', i)]
     incl = float(i[i.find('i')+1: sep[6]])
+    oa = float(i[i.find('oa')+2: sep[3]])
     Md = float(DustM[DustM['model'] == i[: sep[5]]]['Mass'].values.item()[:-5])
     
-    SEDs[int(incl/10)] += F_nu/1920
-    Mds[int(incl/10)] += Md/1920
+    #SEDs[int(incl/10)] += F_nu/1920
+    SEDs[int((incl*8 +oa-10)/10)] += F_nu*N_SEDs/19200
+    Mds[int((incl*8 +oa-10)/10)] += Md*N_SEDs/19200
 
-for j in range(10):
-    New_row = {'SED': SEDs[j], 'wavelength': log_nu, 'incl-values': float(j*10), 'Dm-values': Mds[j]} 
+    count += 1
+    if count == 3840:
+        print('20$\%$ of the finished process...')
+    elif count == 7680:
+        print('40$\%$ of the finished process...')
+    elif count == 11520:
+        print('60$\%$ of the finished process...')
+    elif count == 15360:
+        print('80$\%$ of the finished process...')
+    elif count == 19199:
+        print('Completed process.')
+
+
+for j in range(N_SEDs): 
+    #New_row = {'SED': SEDs[j], 'wavelength': log_nu, 'incl-values': float(j*10), 'Dm-values': Mds[j]} 
+    int_part, dec_part = divmod(j, 8)
+    New_row = {'SED': SEDs[j], 'wavelength': log_nu, 'incl-values': float(int_part*10), 'oa-values': float(dec_part*10+10),'Dm-values': Mds[j]} 
     SKIRTOR = SKIRTOR.append(New_row, ignore_index = True) 
 
 
 # In[ ]:
 
 
-f2 = open('Models/SKIRTOR_mean.pickle', 'wb')
+f2 = open('Models/SKIRTOR_mean_2p.pickle', 'wb')
 pickle.dump(SKIRTOR, f2, protocol=2)
 f2.close()
 

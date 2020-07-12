@@ -32,12 +32,15 @@ for i in os.listdir("Models/SKIRTOR/skirtor_2016-7-18"):
     data = pd.read_csv("Models/SKIRTOR/skirtor_2016-7-18/" + i, delim_whitespace=True, decimal=".", names= ['wl', 'TwlFwl', 'DSwlFwl', 'SSwlFwl', 'TDwlFwl', 'SDwlFwl', 'TrwlFwl'], skiprows = 7)
     
     c = 2.997e8
-    log_nu = np.log10(c/(data.iloc[:, 0]*1e-6))
-    log_nu = log_nu[::-1]
+    wl = data.iloc[:, 0]*1e-6
+    nu = c/wl
+    nu = nu[::-1]
+    log_nu = np.log10(nu)
 
-    d = 3.086*1e25 # 10 Mpc
-    F_l = data.iloc[:, 4]/(data.iloc[:, 0]*4*np.pi*d**2)
-    F_nu = F_l[::-1]
+    d = 3.086*1e22 # 10 Mpc --> m just info
+    F_l = data.iloc[:, 4]/(wl*4*np.pi*d**2)
+    F_nu = (F_l*wl**2)/c
+    F_nu = F_nu[::-1]
     
     sep = [m.start() for m in re.finditer('_', i)]
     tv = float(i[i.find('t')+1: sep[0]])
@@ -51,7 +54,7 @@ for i in os.listdir("Models/SKIRTOR/skirtor_2016-7-18"):
     
     New_row = {'SED': F_nu, 'wavelength': log_nu, 'tv-values': tv, 'p-values': p, 'q-values': q, 'oa-values': oa, 'r-values': r, 'mcl-values': mcl, 'incl-values': incl, 'Dm-values': Md} 
     SKIRTOR = SKIRTOR.append(New_row, ignore_index = True) 
-    j =+ 1
+    j += 1
     if j == 3840:
         print('20$\%$ of the finished process...')
     elif j == 7680:

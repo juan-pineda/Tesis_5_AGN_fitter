@@ -56,13 +56,13 @@ for i in os.listdir("Models/SKIRTOR/skirtor_2016-7-18"):
     SKIRTOR = SKIRTOR.append(New_row, ignore_index = True) 
     j += 1
     if j == 3840:
-        print('20$\%$ of the finished process...')
+        print('20$% of the finished process...')
     elif j == 7680:
-        print('40$\%$ of the finished process...')
+        print('40$% of the finished process...')
     elif j == 11520:
-        print('60$\%$ of the finished process...')
+        print('60$% of the finished process...')
     elif j == 15360:
-        print('80$\%$ of the finished process...')
+        print('80$% of the finished process...')
     elif j == 19199:
         print('Completed process.')
 

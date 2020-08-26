@@ -1,0 +1,19 @@
+Summary of different test:
+
+Test 1: New model of cold dust: S17_newmodel, BC03_metal, R06, S04
+Test 2: New model of galaxy: BC03_metal, DH02_CE01, R06, S04
+Test 3: New model of BB: SN12, S04, AGNfraction = False
+Test 4: New model of torus: NK0, R06
+Test 5: New model of torus: SKIRTOR (full), wrong F_lambda to F_nu and with To_Fnu/4pid**2 in pickle
+Test 6: Same test 9, wrong F_lambda to F_nu and with To_Fnu/4pid**2 in pickle
+Test 7: Same test 10, wrong F_lambda to F_nu and with To_Fnu/4pid**2 in pickle
+Test 8: New model of torus: SKIRTOR_C (CIGALE), R06 
+Test 9: New model of torus: SKIRTOR_C (CIGALE) with To_Fnu/4pid**2 in pickle, R06 
+Test 10: New model of torus: SKIRTOR_mean with To_Fnu/4pid**2 in pickle, R06  
+Test 11: New model of BB: SN12 with BB = 0, wrong units of frequency (not log10), SKIRTOR_mean
+Test 12: New model of BB: SN12 with BB = 0, SKIRTOR_mean
+Test 13: New model of BB: SN12 with BB = bb_surf, SKIRTOR_mean
+Test 14: 2 parameters SKIRTOR model and R06 accretion disk
+Test 15: New model of BB: SN12 with BB = 0, bb_Fnu/1e60, SKIRTOR_mean
+Test 16: New model of BB: SN12 with BB = 0, 4pid**2 in prior, SKIRTOR_mean
+Test 17: New model of BB: D12_S with BB = 0, 4pid**2 in prior, SKIRTOR_mean
